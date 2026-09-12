@@ -40196,12 +40196,12 @@ A.acR.prototype={}
 A.abC.prototype={
 z0(){var s=0,r=A.L(t.y),q,p=2,o=[],n=this,m,l,k,j,i
 var $async$z0=A.M(function(a,b){if(a===1){o.push(b)
-s=p}while(true)switch(s){case 0:j=n.a=new A.abm("wss:///mqtt","estufa_app_tcc",new A.i5(B.bQ,B.c8,B.dI))
+s=p}while(true)switch(s){case 0:j=n.a=new A.abm("wss://c5f638bd9b894b7591b3df0cab6ee925.s1.eu.hivemq.cloud/mqtt","estufa_app_tcc",new A.i5(B.bQ,B.c8,B.dI))
 j.b=8884
 j.at=20
 p=4
 s=7
-return A.F(j.kg("",""),$async$z0)
+return A.F(j.kg("estufa_app","mqtt@app"),$async$z0)
 case 7:n.b.sn(!0)
 A.ir("\u2705 MQTT Conectado com sucesso!")
 j=n.a
@@ -40377,7 +40377,7 @@ g.T4(f)
 n=h.a
 n===$&&A.a()
 n.X9("estufa/config",B.bp,g.a)
-A.ir(" Configura\xe7\xe3o da planta enviada para a estufa: "+f)}else A.ir(" N\xe3o foi poss\xedvel enviar config. App desconectado.")
+A.ir("\u2699\ufe0f Configura\xe7\xe3o da planta enviada para a estufa: "+f)}else A.ir("\u274c N\xe3o foi poss\xedvel enviar config. App desconectado.")
 q.c.af(t.Pu).f.rh(A.ay8(null,null,null,B.aW,null,B.M,null,A.cY(o+" definido como cultivo atual!",null,null,null,null,null,null),null,B.eD,null,null,null,null,null,null,null,null,null))
 return A.J(null,r)}})
 return A.K($async$tf,r)},
